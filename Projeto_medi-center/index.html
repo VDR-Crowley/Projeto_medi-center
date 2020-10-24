@@ -8,7 +8,22 @@
 
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+  <script>
+    window.onload = function() {
+      document.querySelector(".menuMobile").addEventListener("click", function() {
+        if(document.querySelector(".menu nav ul").style.display == 'flex') {
+          document.querySelector(".menu nav ul").style.display = 'none'
+        } else {
+          document.querySelector(".menu nav ul").style.display = 'flex'
+        }
+      })
+    }
+  </script>
+  
   <title>Media Center - Home</title>
+
+
 </head>
 <body>
   <header>
@@ -22,6 +37,11 @@
       
       <div class="menu">
         <nav>
+          <div class="menuMobile">
+            <div class="mm_line"></div>
+            <div class="mm_line"></div>
+            <div class="mm_line"></div>
+          </div>
           <ul>
             <li class="active"><a href="">Home</a></li>
             <li><a href="">Home</a></li>
@@ -171,7 +191,7 @@
         </div>
 
         <div class="widget_body">
-
+          ...
         </div>
 
         <div class=" widget_title">
@@ -180,7 +200,7 @@
         </div>
 
         <div class="widget_body">
-          
+          ...  
         </div>
       
       </div>
