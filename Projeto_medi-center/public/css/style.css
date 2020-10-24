@@ -189,6 +189,14 @@ hr {
   margin-top: 10px;
 }
 
+.widget_body p {
+  color: #a1a1a1;
+  font-size: 15px;
+  line-height: 23px;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -282,10 +290,23 @@ footer {
   text-decoration: none;
 }
 
+.footer-menu h2 {
+  padding-bottom: 15px;
+}
+
+.footer-menu a small {
+  line-height: 30px;
+  padding-right: 20px;
+}
+
+.footer-menu i {
+  font-size: 12px;
+  color: #ccc;
+}
+
 .footer-area {
   display: flex;
   color: #FFF;
-
 }
 
 .footer_areaitems {
@@ -307,4 +328,29 @@ footer .widget_title_text {
   color: #5c5c5c;
   font-size: 12px;
   margin-top: 30px;
+}
+
+.footer_copy span {
+  color: #c5c5c5;
+}
+
+.white {
+  color: #c5c5c5;
+}
+
+.footer_list li {
+  color: #5f5f5f;
+  display: flex;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 5px;
+  justify-content: space-between;
+}
+
+.footer_list li h4 {
+  padding-bottom: 12px;
+}
+
+.footer_list .space-right {
+  padding-right: 75px;
 }
