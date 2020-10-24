@@ -493,3 +493,23 @@ footer .widget_title_text {
     margin-top: 20px;
   }*/
 }
+
+@media (max-width: 390px) {
+  #banner {
+    background-image: none;
+  }
+
+  .banner_headline h1 {
+    color: #36a9e1;
+  }
+
+  .banner_headline h2 {
+    color: #36a9e1;
+  }
+
+  .widget_title_text {
+    padding-top: 70px;
+  }
+
+
+}
