@@ -189,6 +189,12 @@ hr {
   margin-top: 10px;
 }
 
+/* position column footer 2*/
+.widget_body.flex .areacolumn {
+  display: flex;
+  flex-direction: column;
+}
+
 .widget_body p {
   color: #a1a1a1;
   font-size: 15px;
@@ -203,19 +209,32 @@ hr {
   margin-right: 10px;
   margin-top: 5px;
 }
-.widget_body.flex div {
+
+.widget_body span {
+  margin-right: 10px;
+}
+
+.widget_body.flex span {
   flex: 20;
   font-size: 14px;
   line-height: 18px;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .widget_body.flex a {
   display: block;
-  margin-top:  5px;
+  margin-top:  2px;
+  margin-left: 5px;
+  font-size: 13px;
   text-decoration: none;
   color: #36a9e1;
+  transition: color 0.2s;
 
+}
 
+.widget_body.flex a:hover {
+  color: #fff;
 }
 
 .flex {
@@ -251,6 +270,7 @@ article .news_comments {
   font-size: 12px;
   padding: 10px;
 }
+
 
 article .news_thumbnail {
   margin-top: 30px;
@@ -359,6 +379,10 @@ footer .widget_title_text {
   color: #c5c5c5;
 }
 
+.gray {
+  color: #5f5f5f;
+}
+
 .footer_list li {
   color: #5f5f5f;
   display: flex;
@@ -375,3 +399,7 @@ footer .widget_title_text {
 .footer_list .space-right {
   padding-right: 75px;
 }
+
+
+
+/* Responsividade do site */
